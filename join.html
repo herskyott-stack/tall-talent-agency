@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join TALL | Artist Application — Management &amp; Agency</title>
+<meta name="description" content="Apply to TALL Talent Agency. Management for artists still building — direction, branding and a plan. The agency for established artists who want bigger bookings.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Join TALL | Artist Application — Management &amp; Agency">
+<meta property="og:description" content="Apply to TALL Talent Agency. Management for artists still building — direction, branding and a plan. The agency for established artists who want bigger bookings.">
+<meta property="og:image" content="assets/hero-dj.jpg">
+<link rel="icon" href="assets/logo-icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<style>#lovable-badge{display:none!important}</style>
+</head>
+<body>
+<header>
+  <div class="wrap hbar">
+    <a class="brand" href="index.html" aria-label="TALL Talent Agency — home">
+      <img src="assets/logo-icon.png" alt="TALL Talent Agency logo">
+      <span class="bt">TALL<small>TALENT AGENCY</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mainnav">&#9776;</button>
+    <nav class="main" id="mainnav" aria-label="Main">
+      <a href="talent.html">Talent</a><a href="about.html">About</a><a href="join.html" aria-current="page">Join TALL</a><a href="contact.html">Contact</a>
+      <a class="cta" href="book.html">Book Talent</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<div class="phead"><div class="wrap">
+  <p class="label">Artist application</p>
+  <h1>Join <em class="gold">TALL.</em></h1>
+  <p>Gain exposure, connect with new clients and grow your opportunities. Applications are private, and every one is reviewed personally before any profile is published. First, the honest question: which door?</p>
+</div></div>
+<section style="padding-top:3.5rem">
+  <div class="wrap">
+    <form id="join-form" onsubmit="return sendForm('join')" novalidate>
+      <div style="margin-bottom:1.6rem">
+        <label>I am applying for *</label>
+        <div class="radio-row">
+          <label class="radio-card"><input type="radio" name="Applying for" value="Management" required> <b>Management</b><small>I want direction, input on my songs and branding, and a plan. Manage me until I am ready to graduate.</small></label>
+          <label class="radio-card"><input type="radio" name="Applying for" value="Agency"> <b>The Talent Agency</b><small>I am established and have my own manager. I want bookings — bigger gigs and real outreach.</small></label>
+          <label class="radio-card"><input type="radio" name="Applying for" value="Not sure"> <b>Not sure yet</b><small>Tell me honestly where I fit.</small></label>
+        </div>
+      </div>
+      <div class="fgrid">
+        <div><label for="j-name">Artist or stage name *</label><input id="j-name" name="Artist or stage name" type="text" required></div>
+        <div><label for="j-email">Email *</label><input id="j-email" name="Email" type="email" required autocomplete="email"></div>
+        <div><label for="j-phone">Phone <span class="opt">(optional)</span></label><input id="j-phone" name="Phone" type="tel" autocomplete="tel"></div>
+        <div><label for="j-city">City &amp; service area *</label><input id="j-city" name="City and service area" type="text" required placeholder="e.g. Ottawa — willing to travel across Ontario"></div>
+        <div class="full"><label for="j-type">Type of talent *</label>
+          <select id="j-type" name="Type of talent" required>
+            <option value="">Choose one…</option><option>DJ</option><option>Photographer</option><option>Musician / band</option><option>Performer</option><option>Host / MC</option><option>Other creative</option>
+          </select></div>
+        <div class="full"><label for="j-bio">Short biography *</label><textarea id="j-bio" name="Short biography" required placeholder="Who you are, where you have played or worked, what you are known for."></textarea></div>
+        <div class="full"><label for="j-links">Social media, portfolio, photo &amp; video links</label><textarea id="j-links" name="Links" style="min-height:90px" placeholder="Instagram, mixes, portfolio, videos — paste the links that show your work best."></textarea></div>
+        <div class="full"><label for="j-avail">Availability &amp; travel preferences</label><input id="j-avail" name="Availability and travel" type="text" placeholder="e.g. Weekends, Ottawa + up to 2 hours travel"></div>
+        <div class="full"><label for="j-why">Why do you want to join TALL? *</label><textarea id="j-why" name="Why join TALL" required></textarea></div>
+      </div>
+      <div class="hp" aria-hidden="true"><label>Leave this field empty<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+      <p class="privacy-note">Your application goes only to TALL Talent Agency and is reviewed privately — nothing is published without your approval. See our <a href="privacy.html" style="color:var(--gold)">privacy policy</a>. Submitting opens your email app with the application addressed to us; just press send there.</p>
+      <button class="btn solid" type="submit"><span>Send application</span></button>
+      <div class="form-ok" id="join-ok"><strong>Almost done —</strong> your email app should now be open with your application ready to send to talltalentagency@gmail.com. If it did not open, email us directly at that address.</div>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div class="fgrid2">
+      <div>
+        <img class="flogo" src="assets/logo-main.png" alt="TALL Talent Agency">
+        <p>An Ottawa talent agency and management company for DJs, photographers, musicians and performers. More exposure. More bookings.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="talent.html">Meet the talent</a></li>
+          <li><a href="about.html">About TALL</a></li>
+          <li><a href="join.html">Join TALL</a></li>
+          <li><a href="book.html">Book talent</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:talltalentagency@gmail.com">talltalentagency@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/talltalentagency" target="_blank" rel="noopener">Instagram — @talltalentagency</a></li>
+          <li>Ottawa, Ontario, Canada</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>&copy; <span id="yr">2026</span> TALL Talent Agency. All rights reserved.</span>
+      <span><a href="privacy.html" style="color:inherit">Privacy policy</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
