@@ -5,20 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Join TALL | Artist Application — Management &amp; Agency</title>
 <meta name="description" content="Apply to TALL Talent Agency. Management for artists still building — direction, branding and a plan. The agency for established artists who want bigger bookings.">
-<meta name="theme-color" content="#0c0913">
+<meta name="theme-color" content="#06040d">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Join TALL | Artist Application — Management &amp; Agency">
 <meta property="og:description" content="Apply to TALL Talent Agency. Management for artists still building — direction, branding and a plan. The agency for established artists who want bigger bookings.">
-<meta property="og:image" content="assets/hero-dj.jpg">
+<meta property="og:image" content="assets/logo-main.png">
 <link rel="icon" href="assets/logo-icon.png" type="image/png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
-<style>#lovable-badge{display:none!important}</style>
 <noscript><style>.reveal{opacity:1!important;transform:none!important;filter:none!important}.hero .inner>*{animation:none!important}</style></noscript>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"TALL Talent Agency","description":"Ottawa talent agency and management company for DJs, photographers, musicians and performers.","email":"talltalentagency@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Ottawa","addressRegion":"ON","addressCountry":"CA"},"founder":{"@type":"Person","name":"Christopher Barnett"},"sameAs":["https://www.instagram.com/talltalentagency"]}</script>
 </head>
 <body>
+<div id="glow" aria-hidden="true"></div>
 <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-fill"></span></div>
 <header>
   <div class="wrap hbar">
@@ -39,10 +38,20 @@
   <p class="label">Artist application</p>
   <h1>Join <em class="gold">TALL.</em></h1>
   <p>Gain exposure, connect with new clients and grow your opportunities. Applications are private, and every one is reviewed personally before any profile is published. First, the honest question: which door?</p>
+  <div class="pills"><a href="talent.html">← Back to the talent pages</a></div>
 </div></div>
 <section style="padding-top:3.5rem">
-  <div class="wrap">
-    <form id="join-form" onsubmit="return sendForm('join')" novalidate>
+  <div class="wrap form-layout">
+    <aside class="side-panel glass reveal">
+      <h3>Pick your door honestly</h3>
+      <p>There is no wrong answer — there is only the wrong door. Management builds you up. The agency books you bigger. Not sure is a perfectly good answer too.</p>
+      <ol><li>Choose Management, the Agency, or Not sure.</li><li>Tell us who you are and link your best work.</li><li>TALL reviews every application personally — nothing publishes without your approval.</li></ol>
+      <div class="direct">
+        <p style="margin-bottom:.4rem"><strong style="color:var(--cream)">Prefer direct?</strong></p>
+        <p>Email <a href="mailto:talltalentagency@gmail.com">talltalentagency@gmail.com</a><br>Instagram <a href="https://www.instagram.com/talltalentagency" target="_blank" rel="noopener">@talltalentagency</a></p>
+      </div>
+    </aside>
+    <div class="reveal"><form id="join-form" onsubmit="return sendForm('join')" novalidate>
       <div style="margin-bottom:1.6rem">
         <label>I am applying for *</label>
         <div class="radio-row">
@@ -69,13 +78,14 @@
       <p class="privacy-note">Your application goes only to TALL Talent Agency and is reviewed privately — nothing is published without your approval. See our <a href="privacy.html" style="color:var(--gold)">privacy policy</a>. Submitting opens your email app with the application addressed to us; just press send there.</p>
       <button class="btn solid" type="submit"><span>Send application</span></button>
       <div class="form-ok" id="join-ok"><strong>Almost done —</strong> your email app should now be open with your application ready to send to talltalentagency@gmail.com. If it did not open, email us directly at that address.</div>
-    </form>
+    </form></div>
   </div>
 </section>
 
 </main>
 <footer>
   <div class="wrap">
+    <div class="giant" aria-hidden="true">TALL</div>
     <div class="fgrid2">
       <div>
         <img class="flogo" src="assets/logo-main.png" alt="TALL Talent Agency">
@@ -85,6 +95,9 @@
         <h4>Explore</h4>
         <ul>
           <li><a href="talent.html">Meet the talent</a></li>
+          <li><a href="talent.html#djs">DJs</a></li>
+          <li><a href="talent.html#photographers">Photographers</a></li>
+          <li><a href="talent.html#musicians">Musicians &amp; performers</a></li>
           <li><a href="about.html">About TALL</a></li>
           <li><a href="join.html">Join TALL</a></li>
           <li><a href="book.html">Book talent</a></li>
